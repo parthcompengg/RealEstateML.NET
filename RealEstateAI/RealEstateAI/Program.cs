@@ -1,6 +1,6 @@
-﻿// Initialize ML context
+﻿
 using Microsoft.ML;
-using RealEstateAI.Model; // Make sure your namespace matches your project structure
+using RealEstateAI.Model;
 
 var mlContext = new MLContext();
 
@@ -33,7 +33,6 @@ Console.WriteLine($"R^2: {metrics.RSquared}");
 // Use the model for a single prediction
 var predictionEngine = mlContext.Model.CreatePredictionEngine<HouseData, HousePricePrediction>(model);
 
-// Define a single input for prediction
 var newHouse = new HouseData
 {
     OverallQual = 7,
