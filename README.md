@@ -168,6 +168,8 @@ var predictionEngine = mlContext.Model.CreatePredictionEngine<HouseData, HousePr
 ### Console Output:
 
 - **The predicted sale price** is printed in a currency format, providing an easy-to-read output of the model's prediction.
+  ![image](https://github.com/user-attachments/assets/981a7c73-3315-4363-ab6a-1b7e9910e7b4)
+
 
   
 ## Model Performance
