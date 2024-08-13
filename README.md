@@ -27,6 +27,7 @@ The Real Estate AI project aims to build a regression model that predicts the sa
 - **Prediction**: The trained model can predict the sale price of a house based on input features.
 
 ## Project Structure
+
 RealEstateAI/
 │
 ├── Data/
@@ -56,7 +57,7 @@ RealEstateAI/
 ### Steps to Setup the Project
 
 1. **Clone the Repository**:
-   ```bash
+
    git clone https://github.com/yourusername/RealEstateAI.git
    cd RealEstateAI
 
@@ -96,8 +97,7 @@ The model is trained using the `FastTreeRegressionTrainer` algorithm, which is a
 
    - The dataset is loaded from the `HouseData.csv` file using ML.NET’s `LoadFromTextFile` method.
 
-   ```csharp
-   var dataView = mlContext.Data.LoadFromTextFile<HouseData>("Data/HouseData.csv", separatorChar: ',', hasHeader: true);
+      var dataView = mlContext.Data.LoadFromTextFile<HouseData>("Data/HouseData.csv", separatorChar: ',', hasHeader: true);
 
 2. **Define the Pipeline**:
 
@@ -144,19 +144,19 @@ var predictionEngine = mlContext.Model.CreatePredictionEngine<HouseData, HousePr
 
 - **Create an instance of `HouseData`** with the features you want to use for the prediction.
 
-var newHouse = new HouseData
-{
-    OverallQual = 7,
-    GrLivArea = 2000,
-    GarageCars = 2,
-    GarageArea = 500,
-    TotalBsmtSF = 850,
-    FirstFlrSF = 1000,
-    FullBath = 2,
-    YearBuilt = 2005,
-    YearRemodAdd = 2005,
-    LotArea = 8000
-};
+   var newHouse = new HouseData
+      {
+          OverallQual = 7,
+          GrLivArea = 2000,
+          GarageCars = 2,
+          GarageArea = 500,
+          TotalBsmtSF = 850,
+          FirstFlrSF = 1000,
+          FullBath = 2,
+          YearBuilt = 2005,
+          YearRemodAdd = 2005,
+          LotArea = 8000
+      };
 
 ### Make the prediction:
 
