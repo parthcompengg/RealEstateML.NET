@@ -27,7 +27,6 @@ The Real Estate AI project aims to build a regression model that predicts the sa
 - **Prediction**: The trained model can predict the sale price of a house based on input features.
 
 ## Project Structure
-
 RealEstateAI/
 │
 ├── Data/
