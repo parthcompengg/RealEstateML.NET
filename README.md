@@ -58,7 +58,7 @@ RealEstateAI/
 
 1. **Clone the Repository**:
 
-   git clone https://github.com/yourusername/RealEstateAI.git
+   git clone https://github.com/parthcompengg/RealEstateAI.git
    cd RealEstateAI
 
 2. **Open the Project in Visual Studio**:
