@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Learning\\Machine Learning\\ML.NET\\RealEstateAI\\RealEstateAI\\RealEstateAI.csproj": {}
+  },
+  "projects": {
+    "D:\\Learning\\Machine Learning\\ML.NET\\RealEstateAI\\RealEstateAI\\RealEstateAI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learning\\Machine Learning\\ML.NET\\RealEstateAI\\RealEstateAI\\RealEstateAI.csproj",
+        "projectName": "RealEstateAI",
+        "projectPath": "D:\\Learning\\Machine Learning\\ML.NET\\RealEstateAI\\RealEstateAI\\RealEstateAI.csproj",
+        "packagesPath": "C:\\Users\\parth\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning\\Machine Learning\\ML.NET\\RealEstateAI\\RealEstateAI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\parth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.ML.FastTree": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
